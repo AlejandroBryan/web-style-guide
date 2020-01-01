@@ -1,15 +1,16 @@
 .img-avatar {
 	@include img-display;
 	max-height: 100%;
-&-frame {
+	
+}
+.img-frame {
 	@include img-display;
 	padding: 13px;
 	border: 1px solid #ccc;
-
-&-logo {
+}
+.img-logo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-}
+
 }

@@ -10,30 +10,29 @@
 	padding: 10px 0;
 	text-transform: uppercase;
 	border-radius: 5px;
-
 }
+
 	.default {
-		background-color: $color-btn-default;
-		@include hover-effect($color-btn-default);
+		background-color: $multi-task-color-5;
+		@include hover-effect($multi-task-color-5);
 	}
 
 	.error {
-		background-color: $color-btn-error;
-		@include hover-effect($color-btn-error);
+		background-color: $multi-task-color-3;
+		@include hover-effect($multi-task-color-3);
 	}
 
 	.info {
-		background-color: $color-btn-info;
-		@include hover-effect($color-btn-info);
+		background-color: $multi-task-color;
+		@include hover-effect($multi-task-color);
 	}
 
 	.success {
-		background-color: $color-btn-sucess;
-		@include hover-effect($color-btn-sucess);
+		background-color: $multi-task-color-4;
+		@include hover-effect($multi-task-color-4);
 	}
 
 	.warning {
-		background-color: $color-btn-warning;
-		@include hover-effect($color-btn-warning);
+		background-color: $multi-task-color-2;
+		@include hover-effect($multi-task-color-2);
 	}
-
